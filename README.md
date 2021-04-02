@@ -6,5 +6,5 @@ Trataré de hacer una pequeña explicación de como instalar Raspberry Pi Os jun
 - Raspberry Pi OS with destop (2021-03-04)
 - Webcam compatible con Linux (USB video class)
 
-Se asume que ya se tiene ciertos conocimientos de instalación de la imagen, una vez instalada la imagen empecemos:
+Se asume que ya se tiene ciertos conocimientos de instalación de la imagen en la SD para Raspberry Pi OS, una vez instalada empecemos:
 
