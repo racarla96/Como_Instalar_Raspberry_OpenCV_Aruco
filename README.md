@@ -3,7 +3,6 @@ Trataré de hacer una pequeña explicación de como instalar Raspberry Pi Os jun
 
 ##### Testeado
 - Raspberry Pi 3B+
-- SD
 - Raspberry Pi OS with destop (2021-03-04)
 - Webcam compatible con Linux (USB video class)
 
