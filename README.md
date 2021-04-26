@@ -10,6 +10,7 @@ El script descarga OpenCV y realiza una compilación que facilmente puede tardar
 Se recomienda modificar los parametros de compilación si se utiliza una Raspberry Pi 4, pudiendo accelerar bastante el proceso de compilación.
 
 ##### Enlaces empleados:
+- https://www.uco.es/investiga/grupos/ava/node/26
 - https://learnopencv.com/install-opencv-4-on-raspberry-pi/
 - https://peppe8o.com/run-raspberry-pi-os-lite-gui-applications-from-remote-windows-pc/
 
