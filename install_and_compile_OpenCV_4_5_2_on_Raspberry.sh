@@ -1,6 +1,6 @@
 #!/bin/dash
 
-# Enlaces empleados:
+# Enlace empleado principalmente:
 # - https://learnopencv.com/install-opencv-4-on-raspberry-pi/
 
 # Download OpenCV 4.5.2
@@ -103,18 +103,15 @@ sudo -H pip3 install -U pip aruco
 cd
 git clone https://github.com/fehlfarbe/python-aruco.git
 cd python-aruco/example
-
-# python3 ./example.py
-
+python3 ./example.py
 
 
-# Add to file: /etc/ssh/sshd_config
-
-# sudo nano /etc/ssh/sshd_config
-
-# AllowTcpForwarding yes
-# X11Forwarding yes
-
-# Y seguir este tutorial en caso de tener la instalación de Raspbery Os Lite
+# Si tienes instalado la version Lite de Raspberry Pi OS
+# Puedes añadir X11 display forwarding
+# Para ver la salida de video por ssh
 # https://peppe8o.com/run-raspberry-pi-os-lite-gui-applications-from-remote-windows-pc/
 
+# Add to file: /etc/ssh/sshd_config
+# sudo nano /etc/ssh/sshd_config
+# AllowTcpForwarding yes
+# X11Forwarding yes

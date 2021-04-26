@@ -1,10 +1,21 @@
-# Guia Resumen de instalación de OpenCV y Aruco en Raspberry Pi Os with desktop
-Trataré de hacer una pequeña explicación de como instalar Raspberry Pi Os junto a OpenCV y Aruco para su uso con C++ y Python.
+# Script automático de instalación de OpenCV y Aruco en Raspberry Pi Os para su uso con C++ y Python.
 
 ##### Testeado
 - Raspberry Pi 3B+
-- Raspberry Pi OS with destop (2021-03-04)
-- Webcam compatible con Linux (USB video class)
+- Raspberry Pi OS Lite
+- Webcam compatible con Linux (USB video class (UVC))
 
-Se asume que ya se tiene ciertos conocimientos de instalación de la imagen en la SD para Raspberry Pi OS, una vez instalada empecemos:
+El script descarga OpenCV y realiza una compilación que facilmente puede tardar unas 5 horas para la Raspberry Pi 3B+.
+
+Se recomienda modificar los parametros de compilación si se utiliza una Raspberry Pi 4, pudiendo accelerar bastante el proceso de compilación.
+
+##### Enlaces empleados:
+- https://learnopencv.com/install-opencv-4-on-raspberry-pi/
+- https://peppe8o.com/run-raspberry-pi-os-lite-gui-applications-from-remote-windows-pc/
+
+
+
+
+
+
 
