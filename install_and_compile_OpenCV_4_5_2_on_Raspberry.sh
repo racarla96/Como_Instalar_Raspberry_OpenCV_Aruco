@@ -101,17 +101,12 @@ sudo make install && sudo ldconfig
 sudo -H pip3 install -U pip aruco
 
 cd
+
+rm 4.5.2.zip
+rm aruco-3.1.12.zip
+
+mkdir projectAruco
+cd projectAruco
 git clone https://github.com/fehlfarbe/python-aruco.git
 cd python-aruco/example
 python3 ./example.py
-
-
-# Si tienes instalado la version Lite de Raspberry Pi OS
-# Puedes añadir X11 display forwarding
-# Para ver la salida de video por ssh
-# https://peppe8o.com/run-raspberry-pi-os-lite-gui-applications-from-remote-windows-pc/
-
-# Add to file: /etc/ssh/sshd_config
-# sudo nano /etc/ssh/sshd_config
-# AllowTcpForwarding yes
-# X11Forwarding yes
